@@ -13,11 +13,11 @@ public class playerMove : MonoBehaviour
     {
       //  if (avtar != null &&Input.GetKeyDown(KeyCode.RightArrow))
       //  {
-           
+           //pankaj demo comments
        // }
 
         //for run
-        if((Input.GetKey(KeyCode.RightArrow) || (Input.GetKey(KeyCode.LeftArrow))|| (Input.GetKey(KeyCode.A))|| (Input.GetKey(KeyCode.D))))
+        if((Input.GetButton("Horizontal")))
         {
             avtar.SetBool("isRun",true);
            
